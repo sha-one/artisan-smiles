@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --basepath artisan-smiles --legacy",
     "start": "node __sapper__/build",
-    "deploy": "npm run export && node ./scripts/gh-pages.js"
+    "export": "sapper export --legacy",
+    "deploy": "npm run clean && npm run export && node ./scripts/deploy.js"
   },
   "dependencies": {
     "compression": "^1.7.1",
