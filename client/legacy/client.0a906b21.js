@@ -2078,7 +2078,9 @@ function create_fragment$2(ctx) {
       t3 = claim_text(h31_nodes, "Contact");
       h31_nodes.forEach(detach_dev);
       t4 = claim_space(div1_nodes);
-      p0 = claim_element(div1_nodes, "P", {});
+      p0 = claim_element(div1_nodes, "P", {
+        class: true
+      });
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "Tel:\n      ");
       a0 = claim_element(p0_nodes, "A", {
@@ -2121,7 +2123,9 @@ function create_fragment$2(ctx) {
       t13 = claim_text(h32_nodes, "Address");
       h32_nodes.forEach(detach_dev);
       t14 = claim_space(div2_nodes);
-      p1 = claim_element(div2_nodes, "P", {});
+      p1 = claim_element(div2_nodes, "P", {
+        class: true
+      });
       var p1_nodes = children(p1);
       t15 = claim_text(p1_nodes, "40 woodhorn Farm");
       br2 = claim_element(p1_nodes, "BR", {});
@@ -2151,27 +2155,29 @@ function create_fragment$2(ctx) {
       add_location(h31, file$1, 7, 4, 304);
       attr_dev(a0, "class", "text-as-red font-semibold");
       attr_dev(a0, "href", "tel:+441670338377");
-      add_location(a0, file$1, 10, 6, 378);
-      add_location(br0, file$1, 11, 6, 463);
+      add_location(a0, file$1, 10, 6, 394);
+      add_location(br0, file$1, 11, 6, 479);
       attr_dev(a1, "class", "text-as-red font-semibold");
       attr_dev(a1, "href", "tel:+447775774172");
-      add_location(a1, file$1, 13, 6, 487);
-      add_location(br1, file$1, 15, 48, 580);
+      add_location(a1, file$1, 13, 6, 503);
+      add_location(br1, file$1, 15, 48, 596);
       attr_dev(a2, "class", "text-as-red font-semibold");
       attr_dev(a2, "href", "mailto:phil@artisansmiles.uk");
-      add_location(a2, file$1, 17, 6, 606);
+      add_location(a2, file$1, 17, 6, 622);
+      attr_dev(p0, "class", "text-sm");
       add_location(p0, file$1, 8, 4, 357);
       attr_dev(div1, "class", "flex-1 bg-gray-200 py-4 px-2");
       add_location(div1, file$1, 6, 2, 257);
       attr_dev(h32, "class", "text-as-green font-bold");
-      add_location(h32, file$1, 24, 4, 868);
-      add_location(br2, file$1, 25, 23, 940);
-      add_location(br3, file$1, 25, 49, 966);
-      add_location(p1, file$1, 25, 4, 921);
+      add_location(h32, file$1, 24, 4, 884);
+      add_location(br2, file$1, 25, 39, 972);
+      add_location(br3, file$1, 25, 65, 998);
+      attr_dev(p1, "class", "text-sm");
+      add_location(p1, file$1, 25, 4, 937);
       attr_dev(div2, "class", "flex-1 bg-gray-200 py-4 px-2");
-      add_location(div2, file$1, 23, 2, 821);
+      add_location(div2, file$1, 23, 2, 837);
       attr_dev(div3, "class", "w-full pb-4 bg-gray-200 text-xs");
-      add_location(div3, file$1, 27, 2, 996);
+      add_location(div3, file$1, 27, 2, 1028);
       attr_dev(footer, "class", "flex flex-col flex-wrap text-center bg-gray-200 sm:flex-row  lg:bg-white svelte-hid4jr");
       add_location(footer, file$1, 0, 0, 0);
     },
@@ -3315,23 +3321,23 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [/^\/blog\.json$/, /^\/blog\/([^/]+?)\.json$/];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.8036d5e3.js'), __inject_styles(["client-ef2c9d7d.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.4e96617e.js'), __inject_styles(["client-ef2c9d7d.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./services.bfe5c69a.js'), __inject_styles(["client-ef2c9d7d.css","services-140f80e5.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./services.8248c098.js'), __inject_styles(["client-ef2c9d7d.css","services-140f80e5.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./about.786ba286.js'), __inject_styles(["client-ef2c9d7d.css","about-29746ffa.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./about.2b862473.js'), __inject_styles(["client-ef2c9d7d.css","about-29746ffa.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./index.e61104c6.js'), __inject_styles(["client-ef2c9d7d.css","index-ccc6c026.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.984f0999.js'), __inject_styles(["client-ef2c9d7d.css","index-ccc6c026.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./[slug].627e4aad.js'), __inject_styles(["client-ef2c9d7d.css","[slug]-0e1e45ba.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./[slug].6be836ae.js'), __inject_styles(["client-ef2c9d7d.css","[slug]-0e1e45ba.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = function (d) {

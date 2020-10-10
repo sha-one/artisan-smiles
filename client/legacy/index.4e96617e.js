@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, f as element, t as text, g as space, q as query_selector_all, h as claim_element, j as children, k as claim_text, l as detach_dev, m as claim_space, n as add_location, o as attr_dev, p as append_dev, r as insert_dev, u as noop, v as validate_slots } from './client.5af73f66.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, f as element, t as text, g as space, q as query_selector_all, h as claim_element, j as children, k as claim_text, l as detach_dev, m as claim_space, n as add_location, o as attr_dev, p as append_dev, r as insert_dev, u as noop, v as validate_slots } from './client.0a906b21.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -34,12 +34,20 @@ function create_fragment(ctx) {
   var t13;
   var br6;
   var t14;
-  var p1;
+  var hr0;
   var t15;
-  var t16;
   var br7;
+  var t16;
+  var p1;
   var t17;
+  var t18;
   var br8;
+  var t19;
+  var hr1;
+  var t20;
+  var br9;
+  var t21;
+  var br10;
   var block = {
     c: function create() {
       style = element("style");
@@ -69,12 +77,20 @@ function create_fragment(ctx) {
       t13 = space();
       br6 = element("br");
       t14 = space();
-      p1 = element("p");
-      t15 = text("@TODO: content... image gallery etc");
-      t16 = space();
+      hr0 = element("hr");
+      t15 = space();
       br7 = element("br");
-      t17 = space();
+      t16 = space();
+      p1 = element("p");
+      t17 = text("@TODO: content... image gallery etc");
+      t18 = space();
       br8 = element("br");
+      t19 = space();
+      hr1 = element("hr");
+      t20 = space();
+      br9 = element("br");
+      t21 = space();
+      br10 = element("br");
       this.h();
     },
     l: function claim(nodes) {
@@ -125,16 +141,24 @@ function create_fragment(ctx) {
       t13 = claim_space(nodes);
       br6 = claim_element(nodes, "BR", {});
       t14 = claim_space(nodes);
+      hr0 = claim_element(nodes, "HR", {});
+      t15 = claim_space(nodes);
+      br7 = claim_element(nodes, "BR", {});
+      t16 = claim_space(nodes);
       p1 = claim_element(nodes, "P", {
         class: true
       });
       var p1_nodes = children(p1);
-      t15 = claim_text(p1_nodes, "@TODO: content... image gallery etc");
+      t17 = claim_text(p1_nodes, "@TODO: content... image gallery etc");
       p1_nodes.forEach(detach_dev);
-      t16 = claim_space(nodes);
-      br7 = claim_element(nodes, "BR", {});
-      t17 = claim_space(nodes);
+      t18 = claim_space(nodes);
       br8 = claim_element(nodes, "BR", {});
+      t19 = claim_space(nodes);
+      hr1 = claim_element(nodes, "HR", {});
+      t20 = claim_space(nodes);
+      br9 = claim_element(nodes, "BR", {});
+      t21 = claim_space(nodes);
+      br10 = claim_element(nodes, "BR", {});
       this.h();
     },
     h: function hydrate() {
@@ -157,10 +181,14 @@ function create_fragment(ctx) {
       add_location(br4, file, 24, 0, 1199);
       add_location(br5, file, 25, 0, 1206);
       add_location(br6, file, 26, 0, 1213);
+      add_location(hr0, file, 27, 0, 1220);
+      add_location(br7, file, 28, 0, 1227);
       attr_dev(p1, "class", "text-center");
-      add_location(p1, file, 27, 0, 1220);
-      add_location(br7, file, 28, 0, 1283);
-      add_location(br8, file, 29, 0, 1290);
+      add_location(p1, file, 29, 0, 1234);
+      add_location(br8, file, 30, 0, 1297);
+      add_location(hr1, file, 31, 0, 1304);
+      add_location(br9, file, 32, 0, 1311);
+      add_location(br10, file, 33, 0, 1318);
     },
     m: function mount(target, anchor) {
       append_dev(document.head, style);
@@ -190,12 +218,20 @@ function create_fragment(ctx) {
       insert_dev(target, t13, anchor);
       insert_dev(target, br6, anchor);
       insert_dev(target, t14, anchor);
-      insert_dev(target, p1, anchor);
-      append_dev(p1, t15);
-      insert_dev(target, t16, anchor);
+      insert_dev(target, hr0, anchor);
+      insert_dev(target, t15, anchor);
       insert_dev(target, br7, anchor);
-      insert_dev(target, t17, anchor);
+      insert_dev(target, t16, anchor);
+      insert_dev(target, p1, anchor);
+      append_dev(p1, t17);
+      insert_dev(target, t18, anchor);
       insert_dev(target, br8, anchor);
+      insert_dev(target, t19, anchor);
+      insert_dev(target, hr1, anchor);
+      insert_dev(target, t20, anchor);
+      insert_dev(target, br9, anchor);
+      insert_dev(target, t21, anchor);
+      insert_dev(target, br10, anchor);
     },
     p: noop,
     i: noop,
@@ -223,11 +259,19 @@ function create_fragment(ctx) {
       if (detaching) detach_dev(t13);
       if (detaching) detach_dev(br6);
       if (detaching) detach_dev(t14);
-      if (detaching) detach_dev(p1);
-      if (detaching) detach_dev(t16);
+      if (detaching) detach_dev(hr0);
+      if (detaching) detach_dev(t15);
       if (detaching) detach_dev(br7);
-      if (detaching) detach_dev(t17);
+      if (detaching) detach_dev(t16);
+      if (detaching) detach_dev(p1);
+      if (detaching) detach_dev(t18);
       if (detaching) detach_dev(br8);
+      if (detaching) detach_dev(t19);
+      if (detaching) detach_dev(hr1);
+      if (detaching) detach_dev(t20);
+      if (detaching) detach_dev(br9);
+      if (detaching) detach_dev(t21);
+      if (detaching) detach_dev(br10);
     }
   };
   dispatch_dev("SvelteRegisterBlock", {
