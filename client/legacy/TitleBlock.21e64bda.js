@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, D as create_slot, v as validate_slots, f as element, t as text, g as space, h as claim_element, j as children, k as claim_text, l as detach_dev, m as claim_space, n as add_location, o as attr_dev, r as insert_dev, p as append_dev, z as _slicedToArray, E as update_slot, A as transition_in, B as transition_out, F as _createClass, G as set_data_dev, u as noop } from './client.0a906b21.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, D as create_slot, v as validate_slots, f as element, t as text, g as space, h as claim_element, j as children, k as claim_text, l as detach_dev, m as claim_space, n as add_location, o as attr_dev, r as insert_dev, p as append_dev, z as _slicedToArray, E as update_slot, A as transition_in, B as transition_out, F as _createClass, G as set_data_dev, u as noop } from './client.06a671d6.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -45,7 +45,7 @@ function fallback_block(ctx) {
     h: function hydrate() {
       add_location(h2, file, 6, 4, 91);
       add_location(p, file, 7, 4, 118);
-      if (img.src !== (img_src_value = "http://via.placeholder.com/1200x500")) attr_dev(img, "src", img_src_value);
+      if (img.src !== (img_src_value = "https://via.placeholder.com/1200x500")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "placeholder");
       add_location(img, file, 12, 4, 367);
     },
