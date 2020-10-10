@@ -25,7 +25,11 @@
 <br />
 <br />
 <br />
+<hr />
+<br />
 <p class="text-center">@TODO: content... image gallery etc</p>
+<br />
+<hr />
 <br />
 <br />
 

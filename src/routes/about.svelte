@@ -52,7 +52,7 @@
 <Section>
   <img
     class="float-left mr-6 mb-6"
-    src="http://via.placeholder.com/1200x400"
+    src="https://via.placeholder.com/1200x400"
     alt="placeholder" />
 </Section>
 

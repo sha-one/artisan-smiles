@@ -10,7 +10,7 @@
       dignissimos pariatur quos nemo! Incidunt tempora dolore dicta aliquam
       voluptas, aperiam nam ullam veritatis unde assumenda? Ad, culpa nemo?
     </p>
-    <img src="http://via.placeholder.com/1200x500" alt="placeholder" />
+    <img src="https://via.placeholder.com/1200x500" alt="placeholder" />
   </slot>
 </div>
 
