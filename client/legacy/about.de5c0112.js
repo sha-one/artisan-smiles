@@ -1,5 +1,6 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, g as space, f as element, t as text, w as create_component, q as query_selector_all, l as detach_dev, m as claim_space, h as claim_element, j as children, k as claim_text, x as claim_component, o as attr_dev, n as add_location, r as insert_dev, p as append_dev, y as mount_component, z as _slicedToArray, A as transition_in, B as transition_out, C as destroy_component, v as validate_slots } from './client.06a671d6.js';
-import { S as Section, T as TitleBlock } from './TitleBlock.21e64bda.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, m as space, l as element, t as text, B as create_component, C as query_selector_all, k as detach_dev, p as claim_space, n as claim_element, o as children, h as claim_text, D as claim_component, q as attr_dev, r as add_location, j as insert_dev, u as append_dev, E as mount_component, w as _slicedToArray, z as transition_in, A as transition_out, F as destroy_component, v as validate_slots } from './client.740fd1a9.js';
+import { S as Section } from './Section.2ac7ae21.js';
+import { T as TitleBlock } from './TitleBlock.93961076.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -20,7 +21,7 @@ function create_default_slot_2(ctx) {
       t0 = text("Cosmetic, Restorative and Implant Dental Services");
       t1 = space();
       p = element("p");
-      t2 = text("As a new business we would like to thank you for requesting aninformation\n      guide and price list for our services. We would be pleased todiscuss your\n      requirements and look forward to being of service to you inthe future.");
+      t2 = text("As a new business we would like to thank you for requesting an information\n      guide and price list for our services. We would be pleased to discuss your\n      requirements and look forward to being of service to you in the future.");
       this.h();
     },
     l: function claim(nodes) {
@@ -35,15 +36,15 @@ function create_default_slot_2(ctx) {
       t1 = claim_space(div_nodes);
       p = claim_element(div_nodes, "P", {});
       var p_nodes = children(p);
-      t2 = claim_text(p_nodes, "As a new business we would like to thank you for requesting aninformation\n      guide and price list for our services. We would be pleased todiscuss your\n      requirements and look forward to being of service to you inthe future.");
+      t2 = claim_text(p_nodes, "As a new business we would like to thank you for requesting an information\n      guide and price list for our services. We would be pleased to discuss your\n      requirements and look forward to being of service to you in the future.");
       p_nodes.forEach(detach_dev);
       div_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      add_location(h3, file, 16, 4, 328);
-      add_location(p, file, 17, 4, 391);
-      attr_dev(div, "class", "section-content svelte-163vqea");
+      add_location(h3, file, 16, 4, 335);
+      add_location(p, file, 17, 4, 398);
+      attr_dev(div, "class", "section-content m-auto svelte-163vqea");
       add_location(div, file, 15, 2, 294);
     },
     m: function mount(target, anchor) {
@@ -92,13 +93,13 @@ function create_default_slot_1(ctx) {
       p0 = element("p");
       b = element("b");
       t1 = text("Philip Dobinson");
-      t2 = text("\n      Philip Dobinson (founder) has been employed inthe dental technology ﬁeld\n      for over 30 years and specialises in cosmetic and implantology.");
+      t2 = text("\n      Philip Dobinson (founder) has been employed in the dental technology ﬁeld\n      for over 30 years and specialises in cosmetic and implantology.");
       t3 = space();
       p1 = element("p");
-      t4 = text("He has worked in referral dental clinics providingface to face\n      consultations, implementing careplans using strategic client management\n      toensure successful outcomes for clients and aftercare plans.");
+      t4 = text("He has worked in referral dental clinics providing face to face\n      consultations, implementing care plans using strategic client management\n      to ensure successful outcomes for clients and aftercare plans.");
       t5 = space();
       p2 = element("p");
-      t6 = text("Artisan Smiles believes that high standards and using evolving techniques\n      will provide a unique handcrafted product for clients. Good communication\n      skills ensure that products are made to exceedexpectations and deliver on\n      the smile.");
+      t6 = text("Artisan Smiles believes that high standards and using evolving techniques\n      will provide a unique handcrafted product for clients. Good communication\n      skills ensure that products are made to exceed expectations and deliver on\n      the smile.");
       this.h();
     },
     l: function claim(nodes) {
@@ -121,40 +122,40 @@ function create_default_slot_1(ctx) {
       var b_nodes = children(b);
       t1 = claim_text(b_nodes, "Philip Dobinson");
       b_nodes.forEach(detach_dev);
-      t2 = claim_text(p0_nodes, "\n      Philip Dobinson (founder) has been employed inthe dental technology ﬁeld\n      for over 30 years and specialises in cosmetic and implantology.");
+      t2 = claim_text(p0_nodes, "\n      Philip Dobinson (founder) has been employed in the dental technology ﬁeld\n      for over 30 years and specialises in cosmetic and implantology.");
       p0_nodes.forEach(detach_dev);
       t3 = claim_space(div_nodes);
       p1 = claim_element(div_nodes, "P", {
         class: true
       });
       var p1_nodes = children(p1);
-      t4 = claim_text(p1_nodes, "He has worked in referral dental clinics providingface to face\n      consultations, implementing careplans using strategic client management\n      toensure successful outcomes for clients and aftercare plans.");
+      t4 = claim_text(p1_nodes, "He has worked in referral dental clinics providing face to face\n      consultations, implementing care plans using strategic client management\n      to ensure successful outcomes for clients and aftercare plans.");
       p1_nodes.forEach(detach_dev);
       t5 = claim_space(div_nodes);
       p2 = claim_element(div_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
-      t6 = claim_text(p2_nodes, "Artisan Smiles believes that high standards and using evolving techniques\n      will provide a unique handcrafted product for clients. Good communication\n      skills ensure that products are made to exceedexpectations and deliver on\n      the smile.");
+      t6 = claim_text(p2_nodes, "Artisan Smiles believes that high standards and using evolving techniques\n      will provide a unique handcrafted product for clients. Good communication\n      skills ensure that products are made to exceed expectations and deliver on\n      the smile.");
       p2_nodes.forEach(detach_dev);
       div_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img, "class", "float-left mr-6 mb-6");
+      attr_dev(img, "class", "float-none m-auto mb-6 md:float-left md:mr-6 ");
       if (img.src !== (img_src_value = "philip-dobinson.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "placeholder");
       attr_dev(img, "width", "280");
-      add_location(img, file, 27, 4, 708);
-      add_location(b, file, 33, 6, 872);
+      add_location(img, file, 27, 4, 725);
+      add_location(b, file, 33, 6, 914);
       attr_dev(p0, "class", "clear-both md:clear-none");
-      add_location(p0, file, 32, 4, 829);
+      add_location(p0, file, 32, 4, 871);
       attr_dev(p1, "class", "clear-both md:clear-none");
-      add_location(p1, file, 37, 4, 1057);
+      add_location(p1, file, 37, 4, 1100);
       attr_dev(p2, "class", "clear-both");
-      add_location(p2, file, 42, 4, 1322);
-      attr_dev(div, "class", "section-content svelte-163vqea");
-      add_location(div, file, 26, 2, 674);
+      add_location(p2, file, 42, 4, 1368);
+      attr_dev(div, "class", "section-content m-auto svelte-163vqea");
+      add_location(div, file, 26, 2, 684);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div, anchor);
@@ -187,32 +188,42 @@ function create_default_slot_1(ctx) {
 
 
 function create_default_slot(ctx) {
+  var div;
   var img;
   var img_src_value;
   var block = {
     c: function create() {
+      div = element("div");
       img = element("img");
       this.h();
     },
     l: function claim(nodes) {
-      img = claim_element(nodes, "IMG", {
+      div = claim_element(nodes, "DIV", {
+        class: true
+      });
+      var div_nodes = children(div);
+      img = claim_element(div_nodes, "IMG", {
         class: true,
         src: true,
         alt: true
       });
+      div_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img, "class", "float-left mr-6 mb-6");
-      if (img.src !== (img_src_value = "https://via.placeholder.com/1200x400")) attr_dev(img, "src", img_src_value);
-      attr_dev(img, "alt", "placeholder");
-      add_location(img, file, 52, 2, 1644);
+      attr_dev(img, "class", "mb-6");
+      if (img.src !== (img_src_value = "case.jpeg")) attr_dev(img, "src", img_src_value);
+      attr_dev(img, "alt", "demo case");
+      add_location(img, file, 53, 4, 1732);
+      attr_dev(div, "class", "section-content m-auto svelte-163vqea");
+      add_location(div, file, 52, 2, 1691);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, img, anchor);
+      insert_dev(target, div, anchor);
+      append_dev(div, img);
     },
     d: function destroy(detaching) {
-      if (detaching) detach_dev(img);
+      if (detaching) detach_dev(div);
     }
   };
   dispatch_dev("SvelteRegisterBlock", {

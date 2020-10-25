@@ -1,5 +1,6 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, g as space, f as element, t as text, w as create_component, q as query_selector_all, l as detach_dev, m as claim_space, h as claim_element, j as children, k as claim_text, x as claim_component, o as attr_dev, n as add_location, r as insert_dev, p as append_dev, y as mount_component, z as _slicedToArray, A as transition_in, B as transition_out, C as destroy_component, v as validate_slots, u as noop } from './client.06a671d6.js';
-import { S as Section, T as TitleBlock } from './TitleBlock.21e64bda.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, m as space, l as element, t as text, B as create_component, C as query_selector_all, k as detach_dev, p as claim_space, n as claim_element, o as children, h as claim_text, D as claim_component, q as attr_dev, r as add_location, j as insert_dev, u as append_dev, E as mount_component, w as _slicedToArray, z as transition_in, A as transition_out, F as destroy_component, v as validate_slots, G as noop } from './client.740fd1a9.js';
+import { S as Section } from './Section.2ac7ae21.js';
+import { T as TitleBlock } from './TitleBlock.93961076.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -53,7 +54,7 @@ function create_default_slot_11(ctx) {
       b1 = element("b");
       t7 = text("Basic Range:");
       br1 = element("br");
-      t8 = text("\n      Moderately monolithic with some degree of translucency and\n      fundamentalshading. Priced at a rate which is affordable.");
+      t8 = text("\n      Moderately monolithic with some degree of translucency and fundamental\n      shading. Priced at a rate which is affordable.");
       this.h();
     },
     l: function claim(nodes) {
@@ -89,7 +90,7 @@ function create_default_slot_11(ctx) {
       t7 = claim_text(b1_nodes, "Basic Range:");
       b1_nodes.forEach(detach_dev);
       br1 = claim_element(p2_nodes, "BR", {});
-      t8 = claim_text(p2_nodes, "\n      Moderately monolithic with some degree of translucency and\n      fundamentalshading. Priced at a rate which is affordable.");
+      t8 = claim_text(p2_nodes, "\n      Moderately monolithic with some degree of translucency and fundamental\n      shading. Priced at a rate which is affordable.");
       p2_nodes.forEach(detach_dev);
       div_nodes.forEach(detach_dev);
       this.h();
@@ -239,15 +240,15 @@ function create_default_slot_10(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(b, file, 44, 6, 1170);
-      add_location(br0, file, 44, 50, 1214);
-      add_location(br1, file, 45, 74, 1295);
-      add_location(i, file, 46, 6, 1308);
-      add_location(p0, file, 43, 4, 1160);
-      add_location(p1, file, 48, 4, 1357);
-      add_location(p2, file, 52, 4, 1466);
+      add_location(b, file, 44, 6, 1171);
+      add_location(br0, file, 44, 50, 1215);
+      add_location(br1, file, 45, 74, 1296);
+      add_location(i, file, 46, 6, 1309);
+      add_location(p0, file, 43, 4, 1161);
+      add_location(p1, file, 48, 4, 1358);
+      add_location(p2, file, 52, 4, 1467);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 42, 2, 1126);
+      add_location(div, file, 42, 2, 1127);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -345,10 +346,10 @@ function create_default_slot_9(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(p0, file, 62, 4, 1719);
-      add_location(p1, file, 66, 4, 1870);
+      add_location(p0, file, 62, 4, 1720);
+      add_location(p1, file, 66, 4, 1871);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 61, 2, 1685);
+      add_location(div, file, 61, 2, 1686);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -442,7 +443,7 @@ function create_default_slot_8(ctx) {
       p3 = element("p");
       b3 = element("b");
       t9 = text("3.");
-      t10 = text("\n      Protective night splints, where provided, have been worn by the client\n      toprevent damage by bruxism.");
+      t10 = text("\n      Protective night splints, where provided, have been worn by the client to\n      prevent damage by bruxism.");
       t11 = space();
       i = element("i");
       t12 = text("Work is not guaranteed in cases of damage caused by accident or\n      injury,degeneration or existing detention, or in some cases, bonding\n      failure to the tooth.");
@@ -487,7 +488,7 @@ function create_default_slot_8(ctx) {
       var b3_nodes = children(b3);
       t9 = claim_text(b3_nodes, "3.");
       b3_nodes.forEach(detach_dev);
-      t10 = claim_text(p3_nodes, "\n      Protective night splints, where provided, have been worn by the client\n      toprevent damage by bruxism.");
+      t10 = claim_text(p3_nodes, "\n      Protective night splints, where provided, have been worn by the client to\n      prevent damage by bruxism.");
       p3_nodes.forEach(detach_dev);
       t11 = claim_space(div_nodes);
       i = claim_element(div_nodes, "I", {});
@@ -498,17 +499,17 @@ function create_default_slot_8(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(b0, file, 77, 6, 2138);
-      add_location(p0, file, 76, 4, 2128);
-      add_location(b1, file, 82, 6, 2283);
-      add_location(p1, file, 81, 4, 2273);
-      add_location(b2, file, 87, 6, 2393);
-      add_location(p2, file, 86, 4, 2383);
-      add_location(b3, file, 93, 6, 2530);
-      add_location(p3, file, 92, 4, 2520);
-      add_location(i, file, 98, 4, 2666);
+      add_location(b0, file, 77, 6, 2139);
+      add_location(p0, file, 76, 4, 2129);
+      add_location(b1, file, 82, 6, 2284);
+      add_location(p1, file, 81, 4, 2274);
+      add_location(b2, file, 87, 6, 2394);
+      add_location(p2, file, 86, 4, 2384);
+      add_location(b3, file, 93, 6, 2531);
+      add_location(p3, file, 92, 4, 2521);
+      add_location(i, file, 98, 4, 2668);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 75, 2, 2094);
+      add_location(div, file, 75, 2, 2095);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -818,40 +819,40 @@ function create_default_slot_7(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(i, file, 110, 6, 3113);
-      add_location(p0, file, 107, 4, 2959);
-      add_location(br0, file, 112, 4, 3188);
+      add_location(i, file, 110, 6, 3115);
+      add_location(p0, file, 107, 4, 2961);
+      add_location(br0, file, 112, 4, 3190);
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 114, 29, 3234);
-      add_location(p1, file, 114, 6, 3211);
+      add_location(span0, file, 114, 29, 3236);
+      add_location(p1, file, 114, 6, 3213);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 115, 26, 3281);
-      add_location(p2, file, 115, 6, 3261);
+      add_location(span1, file, 115, 26, 3283);
+      add_location(p2, file, 115, 6, 3263);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 116, 40, 3342);
-      add_location(p3, file, 116, 6, 3308);
+      add_location(span2, file, 116, 40, 3344);
+      add_location(p3, file, 116, 6, 3310);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 117, 37, 3400);
-      add_location(p4, file, 117, 6, 3369);
-      add_location(div0, file, 113, 4, 3199);
+      add_location(span3, file, 117, 37, 3402);
+      add_location(p4, file, 117, 6, 3371);
+      add_location(div0, file, 113, 4, 3201);
       attr_dev(span4, "class", "svelte-b15mqy");
-      add_location(span4, file, 120, 38, 3480);
-      add_location(p5, file, 120, 6, 3448);
+      add_location(span4, file, 120, 38, 3482);
+      add_location(p5, file, 120, 6, 3450);
       attr_dev(span5, "class", "svelte-b15mqy");
-      add_location(span5, file, 121, 35, 3536);
-      add_location(p6, file, 121, 6, 3507);
+      add_location(span5, file, 121, 35, 3538);
+      add_location(p6, file, 121, 6, 3509);
       attr_dev(span6, "class", "svelte-b15mqy");
-      add_location(span6, file, 122, 29, 3586);
-      add_location(p7, file, 122, 6, 3563);
+      add_location(span6, file, 122, 29, 3588);
+      add_location(p7, file, 122, 6, 3565);
       attr_dev(span7, "class", "svelte-b15mqy");
-      add_location(span7, file, 123, 27, 3634);
-      add_location(p8, file, 123, 6, 3613);
-      add_location(div1, file, 119, 4, 3436);
-      add_location(br1, file, 125, 4, 3670);
-      add_location(b, file, 127, 6, 3691);
-      add_location(p9, file, 126, 4, 3681);
+      add_location(span7, file, 123, 27, 3636);
+      add_location(p8, file, 123, 6, 3615);
+      add_location(div1, file, 119, 4, 3438);
+      add_location(br1, file, 125, 4, 3672);
+      add_location(b, file, 127, 6, 3693);
+      add_location(p9, file, 126, 4, 3683);
       attr_dev(div2, "class", "section-content svelte-b15mqy");
-      add_location(div2, file, 106, 2, 2925);
+      add_location(div2, file, 106, 2, 2927);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -1131,31 +1132,31 @@ function create_default_slot_6(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 137, 33, 3955);
-      add_location(p0, file, 137, 6, 3928);
+      add_location(span0, file, 137, 33, 3957);
+      add_location(p0, file, 137, 6, 3930);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 138, 34, 4010);
-      add_location(p1, file, 138, 6, 3982);
+      add_location(span1, file, 138, 34, 4012);
+      add_location(p1, file, 138, 6, 3984);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 139, 39, 4070);
-      add_location(p2, file, 139, 6, 4037);
+      add_location(span2, file, 139, 39, 4072);
+      add_location(p2, file, 139, 6, 4039);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 140, 48, 4139);
-      add_location(p3, file, 140, 6, 4097);
-      add_location(div0, file, 136, 4, 3916);
+      add_location(span3, file, 140, 48, 4141);
+      add_location(p3, file, 140, 6, 4099);
+      add_location(div0, file, 136, 4, 3918);
       attr_dev(span4, "class", "svelte-b15mqy");
-      add_location(span4, file, 143, 29, 4210);
-      add_location(p4, file, 143, 6, 4187);
+      add_location(span4, file, 143, 29, 4212);
+      add_location(p4, file, 143, 6, 4189);
       attr_dev(span5, "class", "svelte-b15mqy");
-      add_location(span5, file, 144, 30, 4261);
-      add_location(p5, file, 144, 6, 4237);
+      add_location(span5, file, 144, 30, 4263);
+      add_location(p5, file, 144, 6, 4239);
       attr_dev(span6, "class", "svelte-b15mqy");
-      add_location(span6, file, 145, 35, 4317);
-      add_location(p6, file, 145, 6, 4288);
-      add_location(div1, file, 142, 4, 4175);
-      add_location(br, file, 147, 4, 4353);
+      add_location(span6, file, 145, 35, 4319);
+      add_location(p6, file, 145, 6, 4290);
+      add_location(div1, file, 142, 4, 4177);
+      add_location(br, file, 147, 4, 4355);
       attr_dev(div2, "class", "section-content svelte-b15mqy");
-      add_location(div2, file, 135, 2, 3882);
+      add_location(div2, file, 135, 2, 3884);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -1748,76 +1749,76 @@ function create_default_slot_5(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(p0, file, 154, 4, 4463);
-      add_location(br, file, 158, 8, 4681);
-      add_location(b, file, 161, 9, 4708);
-      add_location(p1, file, 161, 6, 4705);
+      add_location(p0, file, 154, 4, 4465);
+      add_location(br, file, 158, 8, 4683);
+      add_location(b, file, 161, 9, 4710);
+      add_location(p1, file, 161, 6, 4707);
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 162, 30, 4783);
-      add_location(p2, file, 162, 6, 4759);
-      add_location(p3, file, 163, 6, 4810);
+      add_location(span0, file, 162, 30, 4785);
+      add_location(p2, file, 162, 6, 4761);
+      add_location(p3, file, 163, 6, 4812);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 164, 38, 4890);
-      add_location(p4, file, 164, 6, 4858);
+      add_location(span1, file, 164, 38, 4892);
+      add_location(p4, file, 164, 6, 4860);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 165, 47, 4959);
-      add_location(p5, file, 165, 6, 4918);
+      add_location(span2, file, 165, 47, 4961);
+      add_location(p5, file, 165, 6, 4920);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 166, 27, 5008);
-      add_location(p6, file, 166, 6, 4987);
+      add_location(span3, file, 166, 27, 5010);
+      add_location(p6, file, 166, 6, 4989);
       attr_dev(span4, "class", "svelte-b15mqy");
-      add_location(span4, file, 167, 44, 5074);
-      add_location(p7, file, 167, 6, 5036);
+      add_location(span4, file, 167, 44, 5076);
+      add_location(p7, file, 167, 6, 5038);
       attr_dev(span5, "class", "svelte-b15mqy");
-      add_location(span5, file, 168, 53, 5149);
-      add_location(p8, file, 168, 6, 5102);
+      add_location(span5, file, 168, 53, 5151);
+      add_location(p8, file, 168, 6, 5104);
       attr_dev(span6, "class", "svelte-b15mqy");
-      add_location(span6, file, 169, 27, 5198);
-      add_location(p9, file, 169, 6, 5177);
+      add_location(span6, file, 169, 27, 5200);
+      add_location(p9, file, 169, 6, 5179);
       attr_dev(span7, "class", "svelte-b15mqy");
-      add_location(span7, file, 170, 40, 5260);
-      add_location(p10, file, 170, 6, 5226);
+      add_location(span7, file, 170, 40, 5262);
+      add_location(p10, file, 170, 6, 5228);
       attr_dev(span8, "class", "svelte-b15mqy");
-      add_location(span8, file, 171, 47, 5329);
-      add_location(p11, file, 171, 6, 5288);
+      add_location(span8, file, 171, 47, 5331);
+      add_location(p11, file, 171, 6, 5290);
       attr_dev(span9, "class", "svelte-b15mqy");
-      add_location(span9, file, 172, 39, 5390);
-      add_location(p12, file, 172, 6, 5357);
+      add_location(span9, file, 172, 39, 5392);
+      add_location(p12, file, 172, 6, 5359);
       attr_dev(span10, "class", "svelte-b15mqy");
-      add_location(span10, file, 173, 48, 5460);
-      add_location(p13, file, 173, 6, 5418);
+      add_location(span10, file, 173, 48, 5462);
+      add_location(p13, file, 173, 6, 5420);
       attr_dev(span11, "class", "svelte-b15mqy");
-      add_location(span11, file, 174, 27, 5509);
-      add_location(p14, file, 174, 6, 5488);
+      add_location(span11, file, 174, 27, 5511);
+      add_location(p14, file, 174, 6, 5490);
       attr_dev(span12, "class", "svelte-b15mqy");
-      add_location(span12, file, 175, 35, 5566);
-      add_location(p15, file, 175, 6, 5537);
+      add_location(span12, file, 175, 35, 5568);
+      add_location(p15, file, 175, 6, 5539);
       attr_dev(span13, "class", "svelte-b15mqy");
-      add_location(span13, file, 176, 44, 5632);
-      add_location(p16, file, 176, 6, 5594);
+      add_location(span13, file, 176, 44, 5634);
+      add_location(p16, file, 176, 6, 5596);
       attr_dev(span14, "class", "svelte-b15mqy");
-      add_location(span14, file, 177, 27, 5681);
-      add_location(p17, file, 177, 6, 5660);
-      add_location(p18, file, 178, 6, 5709);
-      add_location(p19, file, 182, 6, 5855);
-      add_location(div0, file, 160, 4, 4693);
+      add_location(span14, file, 177, 27, 5683);
+      add_location(p17, file, 177, 6, 5662);
+      add_location(p18, file, 178, 6, 5711);
+      add_location(p19, file, 182, 6, 5857);
+      add_location(div0, file, 160, 4, 4695);
       attr_dev(span15, "class", "svelte-b15mqy");
-      add_location(span15, file, 188, 44, 6061);
-      add_location(p20, file, 188, 6, 6023);
+      add_location(span15, file, 188, 44, 6063);
+      add_location(p20, file, 188, 6, 6025);
       attr_dev(span16, "class", "svelte-b15mqy");
-      add_location(span16, file, 189, 53, 6135);
-      add_location(p21, file, 189, 6, 6088);
+      add_location(span16, file, 189, 53, 6137);
+      add_location(p21, file, 189, 6, 6090);
       attr_dev(span17, "class", "svelte-b15mqy");
-      add_location(span17, file, 190, 27, 6183);
-      add_location(p22, file, 190, 6, 6162);
+      add_location(span17, file, 190, 27, 6185);
+      add_location(p22, file, 190, 6, 6164);
       attr_dev(span18, "class", "svelte-b15mqy");
-      add_location(span18, file, 191, 24, 6228);
-      add_location(p23, file, 191, 6, 6210);
-      add_location(p24, file, 192, 6, 6255);
-      add_location(p25, file, 196, 6, 6402);
-      add_location(div1, file, 187, 4, 6011);
+      add_location(span18, file, 191, 24, 6230);
+      add_location(p23, file, 191, 6, 6212);
+      add_location(p24, file, 192, 6, 6257);
+      add_location(p25, file, 196, 6, 6404);
+      add_location(div1, file, 187, 4, 6013);
       attr_dev(div2, "class", "section-content svelte-b15mqy");
-      add_location(div2, file, 153, 2, 4429);
+      add_location(div2, file, 153, 2, 4431);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -2040,13 +2041,13 @@ function create_default_slot_4(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 207, 22, 6686);
-      add_location(p0, file, 207, 4, 6668);
+      add_location(span0, file, 207, 22, 6688);
+      add_location(p0, file, 207, 4, 6670);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 208, 29, 6737);
-      add_location(p1, file, 208, 4, 6712);
+      add_location(span1, file, 208, 29, 6739);
+      add_location(p1, file, 208, 4, 6714);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 206, 2, 6634);
+      add_location(div, file, 206, 2, 6636);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -2243,25 +2244,25 @@ function create_default_slot_3(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 215, 27, 6914);
-      add_location(p0, file, 215, 4, 6891);
+      add_location(span0, file, 215, 27, 6916);
+      add_location(p0, file, 215, 4, 6893);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 216, 28, 6963);
-      add_location(p1, file, 216, 4, 6939);
+      add_location(span1, file, 216, 28, 6965);
+      add_location(p1, file, 216, 4, 6941);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 217, 27, 7011);
-      add_location(p2, file, 217, 4, 6988);
+      add_location(span2, file, 217, 27, 7013);
+      add_location(p2, file, 217, 4, 6990);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 218, 27, 7059);
-      add_location(p3, file, 218, 4, 7036);
+      add_location(span3, file, 218, 27, 7061);
+      add_location(p3, file, 218, 4, 7038);
       attr_dev(span4, "class", "svelte-b15mqy");
-      add_location(span4, file, 219, 25, 7105);
-      add_location(p4, file, 219, 4, 7084);
+      add_location(span4, file, 219, 25, 7107);
+      add_location(p4, file, 219, 4, 7086);
       attr_dev(span5, "class", "svelte-b15mqy");
-      add_location(span5, file, 220, 26, 7152);
-      add_location(p5, file, 220, 4, 7130);
+      add_location(span5, file, 220, 26, 7154);
+      add_location(p5, file, 220, 4, 7132);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 214, 2, 6857);
+      add_location(div, file, 214, 2, 6859);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -2415,16 +2416,16 @@ function create_default_slot_2(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 227, 29, 7305);
-      add_location(p0, file, 227, 4, 7280);
+      add_location(span0, file, 227, 29, 7307);
+      add_location(p0, file, 227, 4, 7282);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 228, 27, 7353);
-      add_location(p1, file, 228, 4, 7330);
+      add_location(span1, file, 228, 27, 7355);
+      add_location(p1, file, 228, 4, 7332);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 229, 51, 7425);
-      add_location(p2, file, 229, 4, 7378);
+      add_location(span2, file, 229, 51, 7427);
+      add_location(p2, file, 229, 4, 7380);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 226, 2, 7246);
+      add_location(div, file, 226, 2, 7248);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -2605,22 +2606,22 @@ function create_default_slot_1(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 236, 27, 7579);
-      add_location(p0, file, 236, 4, 7556);
+      add_location(span0, file, 236, 27, 7581);
+      add_location(p0, file, 236, 4, 7558);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 237, 41, 7641);
-      add_location(p1, file, 237, 4, 7604);
+      add_location(span1, file, 237, 41, 7643);
+      add_location(p1, file, 237, 4, 7606);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 238, 23, 7685);
-      add_location(p2, file, 238, 4, 7666);
+      add_location(span2, file, 238, 23, 7687);
+      add_location(p2, file, 238, 4, 7668);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 239, 26, 7732);
-      add_location(p3, file, 239, 4, 7710);
+      add_location(span3, file, 239, 26, 7734);
+      add_location(p3, file, 239, 4, 7712);
       attr_dev(span4, "class", "svelte-b15mqy");
-      add_location(span4, file, 240, 17, 7770);
-      add_location(p4, file, 240, 4, 7757);
+      add_location(span4, file, 240, 17, 7772);
+      add_location(p4, file, 240, 4, 7759);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 235, 2, 7522);
+      add_location(div, file, 235, 2, 7524);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
@@ -2825,24 +2826,24 @@ function create_default_slot(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "svelte-b15mqy");
-      add_location(span0, file, 247, 24, 7919);
-      add_location(p0, file, 247, 4, 7899);
+      add_location(span0, file, 247, 24, 7921);
+      add_location(p0, file, 247, 4, 7901);
       attr_dev(span1, "class", "svelte-b15mqy");
-      add_location(span1, file, 248, 28, 7968);
-      add_location(p1, file, 248, 4, 7944);
+      add_location(span1, file, 248, 28, 7970);
+      add_location(p1, file, 248, 4, 7946);
       attr_dev(span2, "class", "svelte-b15mqy");
-      add_location(span2, file, 249, 20, 8009);
-      add_location(p2, file, 249, 4, 7993);
+      add_location(span2, file, 249, 20, 8011);
+      add_location(p2, file, 249, 4, 7995);
       attr_dev(span3, "class", "svelte-b15mqy");
-      add_location(span3, file, 250, 24, 8054);
-      add_location(p3, file, 250, 4, 8034);
-      add_location(p4, file, 251, 4, 8079);
-      add_location(br, file, 255, 4, 8214);
-      add_location(i, file, 256, 26, 8247);
+      add_location(span3, file, 250, 24, 8056);
+      add_location(p3, file, 250, 4, 8036);
+      add_location(p4, file, 251, 4, 8081);
+      add_location(br, file, 255, 4, 8216);
+      add_location(i, file, 256, 26, 8249);
       attr_dev(p5, "class", "text-right");
-      add_location(p5, file, 256, 4, 8225);
+      add_location(p5, file, 256, 4, 8227);
       attr_dev(div, "class", "section-content svelte-b15mqy");
-      add_location(div, file, 246, 2, 7865);
+      add_location(div, file, 246, 2, 7867);
     },
     m: function mount(target, anchor) {
       mount_component(titleblock, target, anchor);
