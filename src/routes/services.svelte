@@ -32,8 +32,8 @@
 
     <p>
       <b>Basic Range:</b><br />
-      Moderately monolithic with some degree of translucency and
-      fundamentalshading. Priced at a rate which is affordable.
+      Moderately monolithic with some degree of translucency and fundamental
+      shading. Priced at a rate which is affordable.
     </p>
   </div>
 </Section>
@@ -92,8 +92,8 @@
 
     <p>
       <b>3.</b>
-      Protective night splints, where provided, have been worn by the client
-      toprevent damage by bruxism.
+      Protective night splints, where provided, have been worn by the client to
+      prevent damage by bruxism.
     </p>
 
     <i>Work is not guaranteed in cases of damage caused by accident or

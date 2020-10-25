@@ -13,47 +13,46 @@
 <br />
 
 <Section>
-  <div class="section-content">
+  <div class="section-content m-auto">
     <h3>Cosmetic, Restorative and Implant Dental Services</h3>
     <p>
-      As a new business we would like to thank you for requesting aninformation
-      guide and price list for our services. We would be pleased todiscuss your
-      requirements and look forward to being of service to you inthe future.
+      As a new business we would like to thank you for requesting an information
+      guide and price list for our services. We would be pleased to discuss your
+      requirements and look forward to being of service to you in the future.
     </p>
   </div>
 </Section>
 
 <Section>
-  <div class="section-content">
+  <div class="section-content m-auto">
     <img
-      class="float-left mr-6 mb-6"
+      class="float-none m-auto mb-6 md:float-left md:mr-6 "
       src="philip-dobinson.png"
       alt="placeholder"
       width="280" />
     <p class="clear-both md:clear-none">
       <b>Philip Dobinson</b>
-      Philip Dobinson (founder) has been employed inthe dental technology ﬁeld
+      Philip Dobinson (founder) has been employed in the dental technology ﬁeld
       for over 30 years and specialises in cosmetic and implantology.
     </p>
     <p class="clear-both md:clear-none">
-      He has worked in referral dental clinics providingface to face
-      consultations, implementing careplans using strategic client management
-      toensure successful outcomes for clients and aftercare plans.
+      He has worked in referral dental clinics providing face to face
+      consultations, implementing care plans using strategic client management
+      to ensure successful outcomes for clients and aftercare plans.
     </p>
     <p class="clear-both">
       Artisan Smiles believes that high standards and using evolving techniques
       will provide a unique handcrafted product for clients. Good communication
-      skills ensure that products are made to exceedexpectations and deliver on
+      skills ensure that products are made to exceed expectations and deliver on
       the smile.
     </p>
   </div>
 </Section>
 
 <Section>
-  <img
-    class="float-left mr-6 mb-6"
-    src="https://via.placeholder.com/1200x400"
-    alt="placeholder" />
+  <div class="section-content m-auto">
+    <img class="mb-6" src="case.jpeg" alt="demo case" />
+  </div>
 </Section>
 
 <style>
