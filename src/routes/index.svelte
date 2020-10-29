@@ -28,21 +28,21 @@
   The North East
   <b class="text-as-green">Premier Dental Laboratory</b><br />
   <br />
-  <br />
   <span class="text-gray-600 italic">Where Craftsmanship, Quality & perfection
     come together</span>
 </p>
 
 <br />
 <br />
-
 <hr />
-
-<br />
-<br />
-<br />
 <Section>
-  <div class="text-center section-content m-auto max-w-2xl">
+  <img
+    class="bg-image w-full absolute left-0 right-0 top-0 invisible sm:visible"
+    src="image1.jpeg"
+    alt="smile & teeth"
+    width="600" />
+  <div
+    class="text-center section-content m-auto max-w-2xl px-6 pt-4 relative md:pt-16">
     <h3>Cosmetic, Restorative and Implant Dental Services</h3>
     <p>
       With 30 years experience, I recently set up Artisan Smiles with the aim to
@@ -51,8 +51,9 @@
       relationship with reliability.
     </p>
     <br />
+    <br />
     <img
-      class="float-none m-auto mb-6"
+      class="float-none m-auto mb-6 z-10"
       src="philip-dobinson.png"
       alt="Philip dobinson portrait"
       width="280" />
@@ -67,6 +68,7 @@
     </p>
   </div>
 </Section>
+
 <br />
 
 <hr />
@@ -130,12 +132,12 @@ Practice.">
     <br />
     <div class="flex flex-row flex-wrap">
       <img
-        class="float-none m-auto mb-6"
+        class="float-none m-auto mb-6 w-full md:w-3/6"
         src="image13.jpeg"
         alt="single tooth"
         width="380" />
       <img
-        class="float-none m-auto mb-6"
+        class="float-none m-auto mb-6 w-full md:w-3/6"
         src="image12.jpeg"
         alt="multiple teeth"
         width="380" />
@@ -213,5 +215,9 @@ Practice.">
   a {
     color: #a1465e;
     font-weight: 700;
+  }
+  .bg-image {
+    opacity: 0.4;
+    /* z-index: -1; */
   }
 </style>

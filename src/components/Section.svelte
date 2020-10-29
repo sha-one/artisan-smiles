@@ -2,7 +2,7 @@
   // your script goes here
 </script>
 
-<div class="mb-10 clear-both">
+<div class="mb-10 clear-both relative">
   <slot>
     <h2>Section Title</h2>
     <p>
