@@ -2001,7 +2001,11 @@ function create_fragment$2(ctx) {
   var t16;
   var br3;
   var t17;
+  var br4;
   var t18;
+  var br5;
+  var t19;
+  var t20;
   var div3;
   var block = {
     c: function create() {
@@ -2035,12 +2039,16 @@ function create_fragment$2(ctx) {
       t13 = text("Address");
       t14 = space();
       p1 = element("p");
-      t15 = text("40 woodhorn Farm");
+      t15 = text("1st Floor");
       br2 = element("br");
-      t16 = text("Newbiggin-by-the-Sea");
+      t16 = text("3 Lintonville Terrace");
       br3 = element("br");
-      t17 = text("NE64 6AH");
-      t18 = space();
+      t17 = text("Ashington");
+      br4 = element("br");
+      t18 = text("Northumberland");
+      br5 = element("br");
+      t19 = text("NE63\n      9UN");
+      t20 = space();
       div3 = element("div");
       this.h();
     },
@@ -2127,14 +2135,18 @@ function create_fragment$2(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t15 = claim_text(p1_nodes, "40 woodhorn Farm");
+      t15 = claim_text(p1_nodes, "1st Floor");
       br2 = claim_element(p1_nodes, "BR", {});
-      t16 = claim_text(p1_nodes, "Newbiggin-by-the-Sea");
+      t16 = claim_text(p1_nodes, "3 Lintonville Terrace");
       br3 = claim_element(p1_nodes, "BR", {});
-      t17 = claim_text(p1_nodes, "NE64 6AH");
+      t17 = claim_text(p1_nodes, "Ashington");
+      br4 = claim_element(p1_nodes, "BR", {});
+      t18 = claim_text(p1_nodes, "Northumberland");
+      br5 = claim_element(p1_nodes, "BR", {});
+      t19 = claim_text(p1_nodes, "NE63\n      9UN");
       p1_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
-      t18 = claim_space(footer_nodes);
+      t20 = claim_space(footer_nodes);
       div3 = claim_element(footer_nodes, "DIV", {
         class: true
       });
@@ -2170,14 +2182,16 @@ function create_fragment$2(ctx) {
       add_location(div1, file$1, 6, 2, 257);
       attr_dev(h32, "class", "text-as-green font-bold");
       add_location(h32, file$1, 24, 4, 884);
-      add_location(br2, file$1, 25, 39, 972);
-      add_location(br3, file$1, 25, 65, 998);
+      add_location(br2, file$1, 26, 15, 972);
+      add_location(br3, file$1, 26, 42, 999);
+      add_location(br4, file$1, 26, 57, 1014);
+      add_location(br5, file$1, 26, 77, 1034);
       attr_dev(p1, "class", "text-sm");
       add_location(p1, file$1, 25, 4, 937);
       attr_dev(div2, "class", "flex-1 bg-gray-200 py-4 px-2");
       add_location(div2, file$1, 23, 2, 837);
       attr_dev(div3, "class", "w-full pb-4 bg-gray-200 text-xs");
-      add_location(div3, file$1, 27, 2, 1028);
+      add_location(div3, file$1, 30, 2, 1075);
       attr_dev(footer, "class", "flex flex-col flex-wrap text-center bg-gray-200 sm:flex-row  lg:bg-white svelte-hid4jr");
       add_location(footer, file$1, 0, 0, 0);
     },
@@ -2217,7 +2231,11 @@ function create_fragment$2(ctx) {
       append_dev(p1, t16);
       append_dev(p1, br3);
       append_dev(p1, t17);
-      append_dev(footer, t18);
+      append_dev(p1, br4);
+      append_dev(p1, t18);
+      append_dev(p1, br5);
+      append_dev(p1, t19);
+      append_dev(footer, t20);
       append_dev(footer, div3);
     },
     p: noop,
@@ -3321,23 +3339,23 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [/^\/blog\.json$/, /^\/blog\/([^/]+?)\.json$/];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.0a9a1215.js'), __inject_styles(["client-ef2c9d7d.css","index-1d71318e.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.c6567da5.js'), __inject_styles(["client-ef2c9d7d.css","index-6a370b55.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./services.7e5c7263.js'), __inject_styles(["client-ef2c9d7d.css","services-140f80e5.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./services.883a54b5.js'), __inject_styles(["client-ef2c9d7d.css","services-140f80e5.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./about.de5c0112.js'), __inject_styles(["client-ef2c9d7d.css","about-29746ffa.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./about.680c246c.js'), __inject_styles(["client-ef2c9d7d.css","about-29746ffa.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./index.2b5602bd.js'), __inject_styles(["client-ef2c9d7d.css","index-ccc6c026.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.33d2bbb9.js'), __inject_styles(["client-ef2c9d7d.css","index-ccc6c026.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./[slug].21fef58d.js'), __inject_styles(["client-ef2c9d7d.css","[slug]-0e1e45ba.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./[slug].3245efd1.js'), __inject_styles(["client-ef2c9d7d.css","[slug]-0e1e45ba.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = function (d) {

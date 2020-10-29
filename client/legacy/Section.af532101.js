@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, g as create_slot, v as validate_slots, l as element, t as text, m as space, n as claim_element, o as children, h as claim_text, k as detach_dev, p as claim_space, r as add_location, q as attr_dev, j as insert_dev, u as append_dev, w as _slicedToArray, x as update_slot, z as transition_in, A as transition_out } from './client.740fd1a9.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, g as create_slot, v as validate_slots, l as element, t as text, m as space, n as claim_element, o as children, h as claim_text, k as detach_dev, p as claim_space, r as add_location, q as attr_dev, j as insert_dev, u as append_dev, w as _slicedToArray, x as update_slot, z as transition_in, A as transition_out } from './client.c80e9294.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -43,11 +43,11 @@ function fallback_block(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(h2, file, 6, 4, 91);
-      add_location(p, file, 7, 4, 118);
+      add_location(h2, file, 6, 4, 100);
+      add_location(p, file, 7, 4, 127);
       if (img.src !== (img_src_value = "https://via.placeholder.com/1200x500")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "placeholder");
-      add_location(img, file, 12, 4, 367);
+      add_location(img, file, 12, 4, 376);
     },
     m: function mount(target, anchor) {
       insert_dev(target, h2, anchor);
@@ -102,7 +102,7 @@ function create_fragment(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(div, "class", "mb-10 clear-both");
+      attr_dev(div, "class", "mb-10 clear-both relative");
       add_location(div, file, 4, 0, 47);
     },
     m: function mount(target, anchor) {
