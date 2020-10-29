@@ -7,7 +7,7 @@
     "build": "sapper build --legacy",
     "start": "node __sapper__/build",
     "clean": "rm -rf ./__sapper__",
-    "export": "sapper export --basepath artisan-smiles --legacy",
+    "export": "sapper export --legacy",
     "deploy": "npm run clean && npm run export && node ./scripts/deploy.js"
   },
   "dependencies": {
